@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="437dp"
+            android:layout_height="607dp" app:srcCompat="@drawable/whatsapp_image_2023_05_11_at_6_37_45_pm"
+            android:id="@+id/imageView" tools:layout_editor_absoluteY="-207dp" tools:layout_editor_absoluteX="-13dp"/>
+    <ImageView
+            android:layout_width="568dp"
+            android:layout_height="445dp" app:srcCompat="@drawable/whatsapp_image_2023_05_11_at_12_28_22_pm"
+            android:id="@+id/FondoImagenView" tools:layout_editor_absoluteY="227dp"
+            tools:layout_editor_absoluteX="-79dp"
+            android:background="#FD0B0B1B"/>
+    <TextView
+            android:layout_width="389dp"
+            android:layout_height="90dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.473"
+            android:textColor="#FFFFFF" android:textAlignment="viewEnd" android:textSize="60sp"
+            android:layout_marginTop="4dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/FondoImagenView" android:id="@+id/ResultadoTextView"
+            android:hint="0.0" app:layout_constraintVertical_bias="0.027" android:shadowColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" android:textColorLink="#FF0000"/>
+    <Button
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/SustraccionBoton"
+            tools:layout_editor_absoluteY="440dp"
+            tools:layout_editor_absoluteX="307dp" app:backgroundTint="#003BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/cuatroBoton" tools:layout_editor_absoluteY="440dp"
+            tools:layout_editor_absoluteX="26dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#07A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:clickable="true" android:onClick="presionarDigito"/>
+    <Button
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ochoBoton" tools:layout_editor_absoluteY="400dp"
+            tools:layout_editor_absoluteX="119dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/cincoBoton" tools:layout_editor_absoluteY="440dp"
+            tools:layout_editor_absoluteX="120dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/BotonDecimal" tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="213dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#08A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp"/>
+    <Button
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ceroBoton" tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="120dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/BotondeResultado"
+            tools:layout_editor_absoluteY="520dp"
+            tools:layout_editor_absoluteX="307dp" app:backgroundTint="#003BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tresBoton" tools:layout_editor_absoluteY="480dp"
+            tools:layout_editor_absoluteX="213dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/seisBoton" tools:layout_editor_absoluteY="440dp"
+            tools:layout_editor_absoluteX="213dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/unoBoton" tools:layout_editor_absoluteY="480dp"
+            tools:layout_editor_absoluteX="26dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:clickable="true" android:onClick="presionarDigito"/>
+    <Button
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Botonporcentaje" tools:layout_editor_absoluteY="349dp"
+            tools:layout_editor_absoluteX="214dp" app:backgroundTint="#053BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="/"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/DividirBoton" tools:layout_editor_absoluteY="349dp"
+            tools:layout_editor_absoluteX="307dp" app:backgroundTint="#0A3BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="( )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/BotondePärentecis"
+            tools:layout_editor_absoluteY="349dp"
+            tools:layout_editor_absoluteX="119dp" app:backgroundTint="#003BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="AC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Botondeelmininado"
+            tools:layout_editor_absoluteY="349dp"
+            tools:layout_editor_absoluteX="26dp" app:backgroundTint="#00FB0303" app:iconTint="#00FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" app:rippleColor="#00F6F5F5"
+            android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sieteBoton" tools:layout_editor_absoluteY="400dp"
+            tools:layout_editor_absoluteX="26dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="
+*"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/MultiplicarBoton"
+            tools:layout_editor_absoluteY="400dp"
+            tools:layout_editor_absoluteX="307dp" app:backgroundTint="#003BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/nueveBoton" tools:layout_editor_absoluteY="400dp"
+            tools:layout_editor_absoluteX="213dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#00A38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <Button
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/AdicionBoton" tools:layout_editor_absoluteY="480dp"
+            tools:layout_editor_absoluteX="307dp" app:backgroundTint="#003BAF08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" android:scaleX="2" android:scaleY="2"
+            android:textColor="#FFFFFF" android:textSize="24sp"/>
+    <Button
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/dosBoton" tools:layout_editor_absoluteY="480dp"
+            tools:layout_editor_absoluteX="119dp" android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:backgroundTint="#0CA38D09" android:scaleX="2" android:scaleY="2" android:textColor="#FFFFFF"
+            android:textSize="24sp" android:onClick="presionarDigito"/>
+    <TextView
+            android:layout_width="392dp"
+            android:layout_height="92dp" android:id="@+id/ResultadoTextView2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/FondoImagenView"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.473" app:layout_constraintVertical_bias="0.87" android:hint="0.0"
+            android:textAlignment="viewEnd" android:textSize="60sp" android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" android:textColorLink="#FF0000" android:shadowColor="#FFFFFF"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
